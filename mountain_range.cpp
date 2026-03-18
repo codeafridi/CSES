@@ -1,3 +1,6 @@
+//this problem is incorrect analyse it again
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -34,3 +37,4 @@ int main(){
 
     cout << ans;
 }
+//this is incorrect do it again
