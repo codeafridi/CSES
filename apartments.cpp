@@ -14,13 +14,25 @@ int main(){
         cin >> y[i];
         
 }
-for(ll i =0 ; i < n ; i++){
-    for(ll j =0 ; j < m ; j++){
-        if(x[i] - k <= y[j] && x[i] + k >= y[j]){
-            count++;
-            break;
-        }
+     
+  sort(y,y+m);
+  ll i = 0, j = 0;
+  while(i < n && j < m){
+    if(abs(x[i] - y[j]) <= k){
+      count++;
+      i++;
+      j++;
     }
+    else if(x[i] < y[j]){
+      i++;
+    }
+    else{
+      j++;
+    }
+  }
+  cout << count;
+  return 0;
 }
-cout << count;
-return 0;}
+
+
+//there is doubt come again and check it
