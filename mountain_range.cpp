@@ -1,4 +1,19 @@
-//this problem is incorrect analyse it again
+/*
+Question : You are given a sequence of n integers. You want to find the maximum number of peaks in the sequence.
+Input:
+The first line of the input contains an integer n (1≤n≤10^6). The next line contains n integers x1,x2,...,xn (1≤xi≤10^9).
+Output:
+Print a single integer: the maximum number of peaks in the sequence.
+Example:
+Input:
+5
+1 2 3 4 5
+Output:
+5
+1 2 3 4 5
+Output:
+5
+*/
 
 
 #include <bits/stdc++.h>
