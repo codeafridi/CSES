@@ -9,29 +9,30 @@ int main(){
         cin >> x[i];
 
     }
-    ll count = 0;
+    
     for (ll i =0 ; i < m; i++){
         cin >> y[i];
         
 }
      
-  sort(y,y+m);
-  ll i = 0, j = 0;
-  while(i < n && j < m){
-    if(abs(x[i] - y[j]) <= k){
-      count++;
-      i++;
-      j++;
+sort(x, x + n);
+sort(y, y + m);
+
+ll i = 0, j = 0, count = 0;
+
+while (i < n && j < m) {
+    if (abs(x[i] - y[j]) <= k) {
+        count++;
+        i++;
+        j++;
     }
-    else if(x[i] < y[j]){
-      i++;
+    else if (y[j] < x[i] - k) {
+        j++;
     }
-    else{
-      j++;
+    else {
+        i++;
     }
-  }
-  cout << count;
-  return 0;
+}
 }
 
 
