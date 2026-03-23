@@ -14,11 +14,13 @@ int main(){
         cin >> y[i];
         
 }
-for(ll i =0 ; i < m ; i++){
-    if(y[i] - k <= x[i] && y[i] + k >= x[i]){
-        count++;
+for(ll i =0 ; i < n ; i++){
+    for(ll j =0 ; j < m ; j++){
+        if(x[i] - k <= y[j] && x[i] + k >= y[j]){
+            count++;
+            break;
+        }
     }
 }
 cout << count;
-return 0;
-}
+return 0;}
