@@ -33,6 +33,7 @@ while (i < n && j < m) {
         i++;
     }
 }
+cout << count;
 }
 
 
