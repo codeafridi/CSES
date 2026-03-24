@@ -36,3 +36,4 @@ int main(){
          cout<<"The maximum sum of a contiguous subarray is: "<<best;
          return 0;
 }
+ // this is the O(n) time complexity approach to find the maximum sum of a contiguous subarray
