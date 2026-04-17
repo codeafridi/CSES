@@ -56,4 +56,4 @@ cout << count;
 }
 
 
-//there is doubt come again and check this question out
+//there is doubt come again and check this question out okay
