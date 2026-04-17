@@ -52,4 +52,4 @@ int main(){
 
     cout << ans;
 }
-//this is incorrect do it again okay
+//this is incorrect do it again alright
