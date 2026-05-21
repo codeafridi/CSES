@@ -10,7 +10,7 @@ int main(){
         ll n , x;
         cin >> n >> x;
         vector<ll> array;
-        array.push_back(x);
+        array.push_back(0);
         for(ll i=0; i <n ; i++){
             ll gs;
             cin >> gs;
@@ -20,12 +20,12 @@ int main(){
         array.push_back(x);
         n = array.size(); 
         ll max_distance;
-        for(ll i=0; i <n; i++){
+        for(ll i=1; i <n; i++){
             if(i == n-1){
-            max_distance = max(max_distance,(array[i+1] - array[i]) * 2);
+            max_distance = max(max_distance,(array[i] - array[i-1]) * 2);
             }
             else{
-                max_distance = max(max_distance, array[i+1] - array[i]);
+                max_distance = max(max_distance, array[i] - array[i-1]);
             }
         }
         cout << max_distance << "\n";
