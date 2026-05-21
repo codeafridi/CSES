@@ -17,7 +17,7 @@ int main(){
         }
         array.push_back(x);
         n = array.size(); 
-        ll max_distance;
+        ll max_distance = 0;
         for(ll i=1; i <n; i++){
             if(i == n-1){
             max_distance = max(max_distance,(array[i] - array[i-1]) * 2);
