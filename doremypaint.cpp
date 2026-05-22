@@ -25,7 +25,7 @@ int main(){
         if(freq1 == freq2){
             cout<<"yes"<<endl;
     }
-        else if(n%2 == 0 && abs(freq1 - freq2) == 1){
+        else if(n%2 == 1 && abs(freq1 - freq2) == 1){
         cout<<"yes"<< endl;
     }
         else{
