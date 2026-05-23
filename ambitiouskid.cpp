@@ -26,4 +26,4 @@ int main(){
     cout << mini << endl;
     return 0;
 }
-}
+} //
