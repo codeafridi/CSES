@@ -20,7 +20,7 @@ int main() {
         // after k diagonal moves
         long long x = a + k;
 
-        // cannot increase x anymore
+        
         if(c > x) {
             cout << -1 << endl;
             continue;
