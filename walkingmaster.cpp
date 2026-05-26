@@ -26,7 +26,7 @@ int main() {
             continue;
         }
 
-        // left moves needed
+        
         long long left = x - c;
 
         cout << k + left << endl;
