@@ -11,13 +11,13 @@ int main() {
 
         long long k = d - b;
 
-        // y cannot decrease
+       
         if(k < 0) {
             cout << -1 << endl;
             continue;
         }
 
-        // after k diagonal moves
+
         long long x = a + k;
 
         
